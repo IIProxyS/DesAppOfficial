@@ -2,7 +2,14 @@ using Findergers1._0.Models;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
-
+builder.Services.AddCors(options =>
+    {
+        options.AddPolicy("permitir",
+            builder =>
+            {
+                builder.AllowAnyOrigin();
+            });
+    });
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<FindergersContext>(options =>
@@ -26,7 +33,7 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
-
+app.UseCors("permitir");
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
