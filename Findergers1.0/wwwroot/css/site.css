@@ -1,18 +1,80 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+}
+
+header {
+    height: auto;
+    padding: 5px;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 3px;
+    width: auto;
+}
+
+.navega {
+    background-color: #79DAE8;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.enlace {
+    font-family: 'Kanit', sans-serif;
+    font-size: 17px;
+    color: #2155CD;
+    background-color: #E8F9FD;
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    width: 20%;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.titulo {
+    opacity: 1.0;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    background-color: #79d9e8c0;
+    width: 50%;
+    text-align: center;
+    border-radius: 10px;
+    margin: 5px;
+    padding-top: 10px;
+}
+
+.palmapa {
+    background-color: #e8f9fdc9;
+    display: flex;
+    justify-content: center;
+    height: 550px;
+    padding: 5px;
+}
+
+#mapa {
+    margin-top: 15px;
+    width: 1000px;
+    height: 500px;
+    border-radius: 5px;
+}
+
+.enlace:hover {
+    width: 25%;
+    font-size: 19px;
+    color: #79DAE8;
 }
