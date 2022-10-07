@@ -19,7 +19,7 @@ namespace Findergers1._0.Controllers
                     Edad = d.Edad,
                     Descripcion = d.Descripcion,
                     FechaDesaparicion = d.FechaDesaparicion,
-                    Imagen = d.Imagen,
+               
 
 
                 }).ToList();
@@ -46,7 +46,7 @@ namespace Findergers1._0.Controllers
                     oDesa.Edad = model.Edad;
                     oDesa.Descripcion = model.Descripcion;
                     oDesa.FechaDesaparicion = model.FechaDesaparicion;
-                    oDesa.Imagen = model.Imagen;
+                    
                     db.Desaparecidos.Add(oDesa);
                     db.SaveChanges();
 
@@ -69,7 +69,7 @@ namespace Findergers1._0.Controllers
                 oDesa.Edad = model.Edad;    
                 oDesa.Descripcion = model.Descripcion;
                 oDesa.FechaDesaparicion = model.FechaDesaparicion;
-                oDesa.Imagen = model.Imagen;
+                
 
             }
                 return View(model);
@@ -88,7 +88,7 @@ namespace Findergers1._0.Controllers
                         oDesa.Edad = model.Edad;
                         oDesa.Descripcion = model.Descripcion;
                         oDesa.FechaDesaparicion = model.FechaDesaparicion;
-                        oDesa.Imagen = model.Imagen;
+                        
 
                         db.Entry(oDesa).State = EntityState.Modified;
                         db.SaveChanges();

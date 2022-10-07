@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Findergers1.0", "Findergers1.0\Findergers1.0.csproj", "{ADFEC7A6-34BF-4ADB-BC70-EAD06D352EE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Findergers1.0", "Findergers1.0\Findergers1.0.csproj", "{ADFEC7A6-34BF-4ADB-BC70-EAD06D352EE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject4", "TestProject4\TestProject4.csproj", "{B21C2D5C-BB3F-4AA7-BAF5-98BA8371DBDA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject4", "TestProject4\TestProject4.csproj", "{B21C2D5C-BB3F-4AA7-BAF5-98BA8371DBDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api-Image", "Api-Image\Api-Image.csproj", "{EA179752-928C-435B-8725-178BB888F7FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{B21C2D5C-BB3F-4AA7-BAF5-98BA8371DBDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B21C2D5C-BB3F-4AA7-BAF5-98BA8371DBDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B21C2D5C-BB3F-4AA7-BAF5-98BA8371DBDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA179752-928C-435B-8725-178BB888F7FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA179752-928C-435B-8725-178BB888F7FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA179752-928C-435B-8725-178BB888F7FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA179752-928C-435B-8725-178BB888F7FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -40,7 +40,7 @@ namespace Findergers1._0.Controllers
                 oDesaparecido.Edad = model.age;
                 oDesaparecido.Descripcion = model.description;
                 oDesaparecido.FechaDesaparicion = model.disappDate;
-                oDesaparecido.Imagen = model.image;
+                
                 db.Desaparecidos.Add(oDesaparecido);
                 db.SaveChanges();
             }
@@ -59,7 +59,7 @@ namespace Findergers1._0.Controllers
                 oDesaparecido.Edad = model.age;
                 oDesaparecido.Descripcion = model.description;
                 oDesaparecido.FechaDesaparicion = model.disappDate;
-                oDesaparecido.Imagen = model.image;
+               
                 db.Entry(oDesaparecido).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
                 db.SaveChanges();
             }
