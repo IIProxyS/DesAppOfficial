@@ -15,7 +15,7 @@
                 <th>Age</th>
                 <th>Description</th>
                 <th>Average</th>
-                <th>Image</th>
+                
                 <th> </th>
             </tr>
             @foreach (var oElemento in Model)
@@ -26,7 +26,7 @@
                     <td>@oElemento.Edad</td>
                     <td>@oElemento.Descripcion</td>
                     <td>@oElemento.FechaDesaparicion</td>
-                    <td>@oElemento.Imagen</td>
+                    
                     <td>
                         <a class="btn btn-default" href="~/Desaparecidos/Edit/@oElemento.Id">Edit</a>
                         <a class="btn btn-danger" href="~/Desaparecidos/Delete/@oElemento.Id">Delete</a>

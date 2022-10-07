@@ -10,7 +10,7 @@ namespace Findergers1._0.Models.ViewModels
         public int? Edad { get; set; }
         public string? Descripcion { get; set; }
         public DateTime? FechaDesaparicion { get; set; }
-        public byte[]? Imagen { get; set; }
+        
 
 
     }
