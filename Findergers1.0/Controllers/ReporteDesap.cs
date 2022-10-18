@@ -11,9 +11,9 @@ namespace Findergers1._0.Controllers
     [EnableCors("permitir")]
     public class ReporteDesap : ControllerBase
     {
-        private readonly FindergersContext _context;
+        private readonly DesappContext _context;
 
-        public ReporteDesap(FindergersContext context)
+        public ReporteDesap(DesappContext context)
         {
             _context = context;
         }
@@ -22,9 +22,9 @@ namespace Findergers1._0.Controllers
         //api/ReporteDesap
         public ActionResult Get()
         {
-            using (Models.FindergersContext db = new Models.FindergersContext())
+            using (Models.DesappContext db = new Models.DesappContext())
             {
-                var lst = (from d in db.Desaparecidos select d).ToList();
+                var lst = (from d in db.Missings select d).ToList();
                 return Ok(lst);
             }
         }
@@ -32,16 +32,16 @@ namespace Findergers1._0.Controllers
         [EnableCors("permitir")]
         public ActionResult Post([FromBody] Models.Request.ReportarDesapRequest model)
         {
-            using (Models.FindergersContext db = new Models.FindergersContext())
+            using (Models.DesappContext db = new Models.DesappContext())
             {
-                Models.Desaparecido oDesaparecido = new Models.Desaparecido();
+                Models.Missing oDesaparecido = new Models.Missing();
                 
-                oDesaparecido.Nombre = model.name;
-                oDesaparecido.Edad = model.age;
-                oDesaparecido.Descripcion = model.description;
-                oDesaparecido.FechaDesaparicion = model.disappDate;
+                oDesaparecido.NameMissing = model.name;
+                oDesaparecido.AgeMissing = model.age;
+                oDesaparecido.DescriptionMissing = model.description;
+                oDesaparecido.DateMissing = model.disappDate;
                 
-                db.Desaparecidos.Add(oDesaparecido);
+                db.Missings.Add(oDesaparecido);
                 db.SaveChanges();
             }
             return Ok();
@@ -51,14 +51,14 @@ namespace Findergers1._0.Controllers
         [EnableCors("permitir")]
         public ActionResult Put([FromBody] Models.Request.ReportDesapEditRequest model)
         {
-            using (Models.FindergersContext db = new Models.FindergersContext())
+            using (Models.DesappContext db = new Models.DesappContext())
             {
-                Models.Desaparecido oDesaparecido = db.Desaparecidos.Find(model.id);
+                Models.Missing oDesaparecido = db.Missings.Find(model.id);
 
-                oDesaparecido.Nombre = model.name;
-                oDesaparecido.Edad = model.age;
-                oDesaparecido.Descripcion = model.description;
-                oDesaparecido.FechaDesaparicion = model.disappDate;
+                oDesaparecido.NameMissing = model.name;
+                oDesaparecido.AgeMissing = model.age;
+                oDesaparecido.DescriptionMissing = model.description;
+                oDesaparecido.DateMissing = model.disappDate;
                
                 db.Entry(oDesaparecido).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
                 db.SaveChanges();
@@ -71,13 +71,13 @@ namespace Findergers1._0.Controllers
         [EnableCors("permitir")]
         public async Task<IActionResult> DeleteDesaparecido(int id)
         {
-            var desaparecido = await _context.Desaparecidos.FindAsync(id);
+            var desaparecido = await _context.Missings.FindAsync(id);
             if (desaparecido == null)
             {
                 return NotFound();
             }
 
-            _context.Desaparecidos.Remove(desaparecido);
+            _context.Missings.Remove(desaparecido);
             await _context.SaveChangesAsync();
 
             return NoContent();

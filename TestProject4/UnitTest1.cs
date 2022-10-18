@@ -13,11 +13,19 @@ namespace TestProject4
         public void Setup()
         {
         }
+        [Test]
+        public void NewMissing()
+        {
+            DesappController controller = new DesappController();
+            var result = controller.NewMissing() as ViewResult;
+
+            Assert.IsNotNull(result);
+        }
 
         [Test]
         public void Index()
         {
-            DesaparecidosController controller = new DesaparecidosController();
+            DesappController controller = new DesappController();
             var result = controller.Index() as ViewResult;
 
             Assert.IsNotNull(result);
@@ -27,16 +35,10 @@ namespace TestProject4
         public void Edit()
             
         {
-            DesaparecidosController controller = new DesaparecidosController();
-            var result = controller.Edit(1) as ViewResult;
+            DesappController controller = new DesappController();
+            var result = controller.Edit(2) as ViewResult;
         }
-        [Test]
-        public void Delete()
-
-        {
-            DesaparecidosController controller = new DesaparecidosController();
-            var result = controller.Delete(1) as ViewResult;
-        }
+        
 
     }
 }
