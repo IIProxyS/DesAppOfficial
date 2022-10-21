@@ -31,3 +31,36 @@ C:\Users\marti\Desktop\Proyecto 6 Semestre\FindergersOfficial\Api-Image\obj\Debu
 C:\Users\marti\Desktop\Proyecto 6 Semestre\FindergersOfficial\Api-Image\obj\Debug\net6.0\Api-Image.pdb
 C:\Users\marti\Desktop\Proyecto 6 Semestre\FindergersOfficial\Api-Image\obj\Debug\net6.0\Api-Image.genruntimeconfig.cache
 C:\Users\marti\Desktop\Proyecto 6 Semestre\FindergersOfficial\Api-Image\obj\Debug\net6.0\ref\Api-Image.dll
+D:\Universidad-Sebastian\6. Sexto Semestre\Proyecto integrador\Proyecto Integrador 6 Semestre\FindergersOfficial\Api-Image\bin\Debug\net6.0\appsettings.Development.json
+D:\Universidad-Sebastian\6. Sexto Semestre\Proyecto integrador\Proyecto Integrador 6 Semestre\FindergersOfficial\Api-Image\bin\Debug\net6.0\appsettings.json
+D:\Universidad-Sebastian\6. Sexto Semestre\Proyecto integrador\Proyecto Integrador 6 Semestre\FindergersOfficial\Api-Image\bin\Debug\net6.0\Api-Image.exe
+D:\Universidad-Sebastian\6. Sexto Semestre\Proyecto integrador\Proyecto Integrador 6 Semestre\FindergersOfficial\Api-Image\bin\Debug\net6.0\Api-Image.deps.json
+D:\Universidad-Sebastian\6. Sexto Semestre\Proyecto integrador\Proyecto Integrador 6 Semestre\FindergersOfficial\Api-Image\bin\Debug\net6.0\Api-Image.runtimeconfig.json
+D:\Universidad-Sebastian\6. Sexto Semestre\Proyecto integrador\Proyecto Integrador 6 Semestre\FindergersOfficial\Api-Image\bin\Debug\net6.0\Api-Image.dll
+D:\Universidad-Sebastian\6. Sexto Semestre\Proyecto integrador\Proyecto Integrador 6 Semestre\FindergersOfficial\Api-Image\bin\Debug\net6.0\Api-Image.pdb
+D:\Universidad-Sebastian\6. Sexto Semestre\Proyecto integrador\Proyecto Integrador 6 Semestre\FindergersOfficial\Api-Image\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Universidad-Sebastian\6. Sexto Semestre\Proyecto integrador\Proyecto Integrador 6 Semestre\FindergersOfficial\Api-Image\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Universidad-Sebastian\6. Sexto Semestre\Proyecto integrador\Proyecto Integrador 6 Semestre\FindergersOfficial\Api-Image\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Universidad-Sebastian\6. Sexto Semestre\Proyecto integrador\Proyecto Integrador 6 Semestre\FindergersOfficial\Api-Image\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Universidad-Sebastian\6. Sexto Semestre\Proyecto integrador\Proyecto Integrador 6 Semestre\FindergersOfficial\Api-Image\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\Universidad-Sebastian\6. Sexto Semestre\Proyecto integrador\Proyecto Integrador 6 Semestre\FindergersOfficial\Api-Image\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\Universidad-Sebastian\6. Sexto Semestre\Proyecto integrador\Proyecto Integrador 6 Semestre\FindergersOfficial\Api-Image\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\Universidad-Sebastian\6. Sexto Semestre\Proyecto integrador\Proyecto Integrador 6 Semestre\FindergersOfficial\Api-Image\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\Universidad-Sebastian\6. Sexto Semestre\Proyecto integrador\Proyecto Integrador 6 Semestre\FindergersOfficial\Api-Image\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Universidad-Sebastian\6. Sexto Semestre\Proyecto integrador\Proyecto Integrador 6 Semestre\FindergersOfficial\Api-Image\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Universidad-Sebastian\6. Sexto Semestre\Proyecto integrador\Proyecto Integrador 6 Semestre\FindergersOfficial\Api-Image\obj\Debug\net6.0\Api-Image.csproj.AssemblyReference.cache
+D:\Universidad-Sebastian\6. Sexto Semestre\Proyecto integrador\Proyecto Integrador 6 Semestre\FindergersOfficial\Api-Image\obj\Debug\net6.0\Api-Image.GeneratedMSBuildEditorConfig.editorconfig
+D:\Universidad-Sebastian\6. Sexto Semestre\Proyecto integrador\Proyecto Integrador 6 Semestre\FindergersOfficial\Api-Image\obj\Debug\net6.0\Api-Image.AssemblyInfoInputs.cache
+D:\Universidad-Sebastian\6. Sexto Semestre\Proyecto integrador\Proyecto Integrador 6 Semestre\FindergersOfficial\Api-Image\obj\Debug\net6.0\Api-Image.AssemblyInfo.cs
+D:\Universidad-Sebastian\6. Sexto Semestre\Proyecto integrador\Proyecto Integrador 6 Semestre\FindergersOfficial\Api-Image\obj\Debug\net6.0\Api-Image.csproj.CoreCompileInputs.cache
+D:\Universidad-Sebastian\6. Sexto Semestre\Proyecto integrador\Proyecto Integrador 6 Semestre\FindergersOfficial\Api-Image\obj\Debug\net6.0\Api-Image.MvcApplicationPartsAssemblyInfo.cs
+D:\Universidad-Sebastian\6. Sexto Semestre\Proyecto integrador\Proyecto Integrador 6 Semestre\FindergersOfficial\Api-Image\obj\Debug\net6.0\Api-Image.MvcApplicationPartsAssemblyInfo.cache
+D:\Universidad-Sebastian\6. Sexto Semestre\Proyecto integrador\Proyecto Integrador 6 Semestre\FindergersOfficial\Api-Image\obj\Debug\net6.0\staticwebassets.build.json
+D:\Universidad-Sebastian\6. Sexto Semestre\Proyecto integrador\Proyecto Integrador 6 Semestre\FindergersOfficial\Api-Image\obj\Debug\net6.0\staticwebassets.development.json
+D:\Universidad-Sebastian\6. Sexto Semestre\Proyecto integrador\Proyecto Integrador 6 Semestre\FindergersOfficial\Api-Image\obj\Debug\net6.0\scopedcss\bundle\Api-Image.styles.css
+D:\Universidad-Sebastian\6. Sexto Semestre\Proyecto integrador\Proyecto Integrador 6 Semestre\FindergersOfficial\Api-Image\obj\Debug\net6.0\Api-Image.csproj.CopyComplete
+D:\Universidad-Sebastian\6. Sexto Semestre\Proyecto integrador\Proyecto Integrador 6 Semestre\FindergersOfficial\Api-Image\obj\Debug\net6.0\Api-Image.dll
+D:\Universidad-Sebastian\6. Sexto Semestre\Proyecto integrador\Proyecto Integrador 6 Semestre\FindergersOfficial\Api-Image\obj\Debug\net6.0\refint\Api-Image.dll
+D:\Universidad-Sebastian\6. Sexto Semestre\Proyecto integrador\Proyecto Integrador 6 Semestre\FindergersOfficial\Api-Image\obj\Debug\net6.0\Api-Image.pdb
+D:\Universidad-Sebastian\6. Sexto Semestre\Proyecto integrador\Proyecto Integrador 6 Semestre\FindergersOfficial\Api-Image\obj\Debug\net6.0\Api-Image.genruntimeconfig.cache
+D:\Universidad-Sebastian\6. Sexto Semestre\Proyecto integrador\Proyecto Integrador 6 Semestre\FindergersOfficial\Api-Image\obj\Debug\net6.0\ref\Api-Image.dll

@@ -12,7 +12,7 @@ builder.Services.AddCors(options =>
     });
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddDbContext<FindergersContext>(options =>
+builder.Services.AddDbContext<DesappContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection"));
 });

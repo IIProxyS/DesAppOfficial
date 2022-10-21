@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Findergers1.0\Findergers1.0.csproj" />
+    <ProjectReference Include="..\Findergers1.0\Desapp.csproj" />
   </ItemGroup>
 
 </Project>
