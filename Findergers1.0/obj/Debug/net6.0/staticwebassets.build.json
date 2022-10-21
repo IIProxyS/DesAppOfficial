@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "E1ijO2GhvmHQNdThXkcmcWq2wysj/8buRmRdFLwYGjI=",
+  "Hash": "Icv12ReKaGxYUv4kHFGIwo/XiWE9scUTxLcXAvDYhqU=",
   "Source": "Desapp",
   "BasePath": "_content/Desapp",
   "Mode": "Default",
@@ -68,6 +68,23 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
+      "Identity": "D:\\Universidad-Sebastian\\6. Sexto Semestre\\Proyecto integrador\\Proyecto Integrador 6 Semestre\\FindergersOfficial\\Findergers1.0\\wwwroot\\css\\StyleNewst.css",
+      "SourceId": "Desapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Universidad-Sebastian\\6. Sexto Semestre\\Proyecto integrador\\Proyecto Integrador 6 Semestre\\FindergersOfficial\\Findergers1.0\\wwwroot\\",
+      "BasePath": "_content/Desapp",
+      "RelativePath": "css/StyleNewst.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\StyleNewst.css"
+    },
+    {
       "Identity": "D:\\Universidad-Sebastian\\6. Sexto Semestre\\Proyecto integrador\\Proyecto Integrador 6 Semestre\\FindergersOfficial\\Findergers1.0\\wwwroot\\favicon.ico",
       "SourceId": "Desapp",
       "SourceType": "Discovered",
@@ -83,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Universidad-Sebastian\\6. Sexto Semestre\\Proyecto integrador\\Proyecto Integrador 6 Semestre\\FindergersOfficial\\Findergers1.0\\wwwroot\\js\\NewsApp.js",
+      "SourceId": "Desapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Universidad-Sebastian\\6. Sexto Semestre\\Proyecto integrador\\Proyecto Integrador 6 Semestre\\FindergersOfficial\\Findergers1.0\\wwwroot\\",
+      "BasePath": "_content/Desapp",
+      "RelativePath": "js/NewsApp.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\NewsApp.js"
     },
     {
       "Identity": "D:\\Universidad-Sebastian\\6. Sexto Semestre\\Proyecto integrador\\Proyecto Integrador 6 Semestre\\FindergersOfficial\\Findergers1.0\\wwwroot\\js\\site.js",
