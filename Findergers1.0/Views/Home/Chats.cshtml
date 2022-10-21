@@ -1,0 +1,76 @@
+﻿ @{
+    ViewData["Title"] = "Chats Page";
+}
+<style>
+    .col-2{
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .col-3{
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .w{
+       
+        width: 150px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: #008F39;
+        border-radius:10px;
+        padding: 5px 20px;
+        color:white;
+        text-decoration:none;
+    }
+
+    .w:hover {
+        background-color:white;
+        color:#008F39;
+        border: 2px solid #008F39;
+    }
+</style>
+<div class="container">
+      
+   <div class="row">
+        <div class="col-3">Connection Id</div>
+        <div class="col-6"><span id="connectionId"/></div>
+    </div> 
+
+    <div class="row">&nbsp;</div>
+    <div class="row">
+        <div class="col-2">User</div>
+        <div class="col-4"><input type="text" id="userInput" /></div>
+    </div>
+
+    <div class="row">
+        <div class="col-2">Message</div>
+        <div class="col-4"><input type="text" id="messageInput" /></div>
+    </div>
+
+    <div class="row">
+        <div class="col-2">Receiver Id</div>
+        <div class="col-4"><input type="text" id="receiverId"/></div>
+    </div>
+
+    <div class="row">&nbsp;</div>
+    <div class="row">
+        <div class="col-6">
+
+            <input type="button" id="sendToUser" value="Send Message to User"/>&nbsp;&nbsp;
+            <input type="button" id="sendButton" value="Send Message to All" />
+            <a> OR </a>
+            <a class ="w" href="~/Home/Whatsapp">Send Message via Whatsapp</a>
+            
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12">
+        <hr />
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-6">
+        <ul id="messagesList"></ul>
+    </div>
+</div>
