@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9K17WpSsr2O8eGz7STOdeb0fVf4upfIW07aB/m4VNrPyek7CFOUkG+zighwko1BUhonaCD9dTP0ucDzsgqT6tw==",
+  "dgSpecHash": "CCxKLsUwReI/1DTsNMWza4M/4kPsqFaEU8sTsshIKl8oEUy7h/17TWasM/5DPGIW0FfDiW+Tn9a83OgJXmvJCQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kee12\\OneDrive\\Escritorio\\PRUEBA PUTA VIDA\\DesAppOfficial\\TestProject4\\TestProject4.csproj",
+  "projectFilePath": "C:\\Users\\kee12\\OneDrive\\Escritorio\\DesApp\\DesAppOfficial\\TestProject4\\TestProject4.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kee12\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\kee12\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",

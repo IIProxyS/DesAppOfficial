@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6T6mE0q6XcdCH/SsemWv+s/5HNPxh9boxAwsXJ/lIm3B++hVqUbylu7UmnqKIa5dH2UQxhwyCTLjSIkUwwlgPw==",
+  "dgSpecHash": "L8Iv9dneze7Xf2OG8ygKDO8Swz6FAW/PnK+wUOzZir+GTumOKKrd3BrqLMqkn7eKLPKpGKpG9Cvp+DxdEBdxuw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kee12\\OneDrive\\Escritorio\\PRUEBA PUTA VIDA\\DesAppOfficial\\Api-Image\\Api-Image.csproj",
+  "projectFilePath": "C:\\Users\\kee12\\OneDrive\\Escritorio\\DesApp\\DesAppOfficial\\Api-Image\\Api-Image.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kee12\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\kee12\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.2.0\\microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hL3Xqi3276TtYZ9JWxECLH7KRPT38WS2YmH6mixb51yYCQby2Ow/vfOAyhMaCZU59uUg2zQOv7BklhQ/GmEqbQ==",
+  "dgSpecHash": "BRNfBhd86qez2IH3pdRnP/9hnM9KSZK44RR+yhATzG9mjPRU9XLhES8ZZ1WP94Iu22ah95/2aYqpV7DF+x6mLA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kee12\\OneDrive\\Escritorio\\PRUEBA PUTA VIDA\\DesAppOfficial\\Findergers1.0\\Desapp.csproj",
+  "projectFilePath": "C:\\Users\\kee12\\OneDrive\\Escritorio\\DesApp\\DesAppOfficial\\Findergers1.0\\Desapp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kee12\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\kee12\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

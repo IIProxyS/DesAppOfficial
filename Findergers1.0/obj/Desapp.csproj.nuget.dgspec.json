@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kee12\\OneDrive\\Escritorio\\PRUEBA PUTA VIDA\\DesAppOfficial\\Findergers1.0\\Desapp.csproj": {}
+    "C:\\Users\\kee12\\OneDrive\\Escritorio\\DesApp\\DesAppOfficial\\Findergers1.0\\Desapp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kee12\\OneDrive\\Escritorio\\PRUEBA PUTA VIDA\\DesAppOfficial\\Findergers1.0\\Desapp.csproj": {
+    "C:\\Users\\kee12\\OneDrive\\Escritorio\\DesApp\\DesAppOfficial\\Findergers1.0\\Desapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kee12\\OneDrive\\Escritorio\\PRUEBA PUTA VIDA\\DesAppOfficial\\Findergers1.0\\Desapp.csproj",
+        "projectUniqueName": "C:\\Users\\kee12\\OneDrive\\Escritorio\\DesApp\\DesAppOfficial\\Findergers1.0\\Desapp.csproj",
         "projectName": "Desapp",
-        "projectPath": "C:\\Users\\kee12\\OneDrive\\Escritorio\\PRUEBA PUTA VIDA\\DesAppOfficial\\Findergers1.0\\Desapp.csproj",
+        "projectPath": "C:\\Users\\kee12\\OneDrive\\Escritorio\\DesApp\\DesAppOfficial\\Findergers1.0\\Desapp.csproj",
         "packagesPath": "C:\\Users\\kee12\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kee12\\OneDrive\\Escritorio\\PRUEBA PUTA VIDA\\DesAppOfficial\\Findergers1.0\\obj\\",
+        "outputPath": "C:\\Users\\kee12\\OneDrive\\Escritorio\\DesApp\\DesAppOfficial\\Findergers1.0\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
