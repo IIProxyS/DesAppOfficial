@@ -1,5 +1,7 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
+    Layout = null;
+
 }
 
 <!DOCTYPE html>
@@ -13,15 +15,27 @@
     <link href='https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.css' rel='stylesheet' />
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap" rel="stylesheet">
     <script src='https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="~/css/styleindex.css" rel="stylesheet" />
     <link rel="stylesheet" href="~/css/StyleNewst.css" />
     <script src="~/js/NewsApp.js"></script>
 
-    <title>Prueba mapas con diseño</title>
+    <title>Desapp</title>
 </head>
 <body onload="obtenerDatos()">
-    <nav class="navega">
+    <header>
+        <div class="cabeza">
+        <a href="~/Home/Index">Inicio</a>
+        <a href="~/Desapp/Index">Registrar</a>
+        <a href="~/Home/Chats">Chat</a>
+        </div>
+        <section class="textos-header">
+            <h1>Desapp</h1>
+            <h2>Una pagina web aspera</h2>
+        </section>
+        <div style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-21.72,4.47 C219.24,252.14 329.28,-103.11 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+    </header>
 
-    </nav>
     <div class="palmapa">
         <div id='mapa'></div>
     </div>
@@ -30,9 +44,29 @@
     <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.min.js"></script>
     <script src='https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.js'></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
     <script src="funciones.js"></script>
+    
     <h1 class="title">Noticias Actuales</h1>
     <div class="row" id="divListadoNoticias"></div>
-
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4>Phone</h4>
+                <p>3157947418</p>
+            </div>
+            <div class="content-foo">
+                <h4>Email</h4>
+                <p>Desapp@gmail.com</p>
+            </div>
+            <div class="content-foo">
+                <h4>Location</h4>
+                <p>Facatativa, Cundinamarca</p>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy; Universidad de Cundinamarca | Desapp</h2>
+    </footer>
 </body>
 </html>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RZ/Rrb/ZRZ23nyjjfIHpuzYQvDEvAdWilt1/VdeeJ/Q/BYgzzsDNMBy0wEK6HGLwRvHSKl5yfeFUP/0ceCe61g==",
+  "dgSpecHash": "f27wdr9HkgBPlQmPpVcTbwJvQvT6OaMwIF/pR0EK8eWZyulEbd60Ws0Uipf4nx2IWwq0oM7PgbBizXwzBE+ymQ==",
   "success": true,
-  "projectFilePath": "D:\\Universidad-Sebastian\\6. Sexto Semestre\\Proyecto integrador\\Proyecto Integrador 6 Semestre\\FindergersOfficial\\TestProject4\\TestProject4.csproj",
+  "projectFilePath": "C:\\Users\\marti\\OneDrive\\Escritorio\\Proyecto\\FindergersOfficial\\TestProject4\\TestProject4.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marti\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\marti\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",

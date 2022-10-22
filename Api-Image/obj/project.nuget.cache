@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SjhLJraUMYiLcSwfm1rKjVd8Um/I7XvPa8hXnwTILYpcYpZzSi2dtRN8Q7EIUoxc1mCV0tGHfpUqvPPos24PFw==",
+  "dgSpecHash": "wls65P+ammnOvTIRRx1f6crWEjHuLn4VVxjAlwRYzFC1v4N6bFNbS450kn1aL7PF/XGKyj9bWCaYjj1m77F5rg==",
   "success": true,
-  "projectFilePath": "D:\\Universidad-Sebastian\\6. Sexto Semestre\\Proyecto integrador\\Proyecto Integrador 6 Semestre\\FindergersOfficial\\Api-Image\\Api-Image.csproj",
+  "projectFilePath": "C:\\Users\\marti\\OneDrive\\Escritorio\\Proyecto\\FindergersOfficial\\Api-Image\\Api-Image.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marti\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\marti\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",

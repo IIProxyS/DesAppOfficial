@@ -9637,11 +9637,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Universidad-Sebastian\\6. Sexto Semestre\\Proyecto integrador\\Proyecto Integrador 6 Semestre\\FindergersOfficial\\Findergers1.0\\Desapp.csproj",
+      "projectUniqueName": "C:\\Users\\marti\\OneDrive\\Escritorio\\Proyecto\\FindergersOfficial\\Findergers1.0\\Desapp.csproj",
       "projectName": "Desapp",
-      "projectPath": "D:\\Universidad-Sebastian\\6. Sexto Semestre\\Proyecto integrador\\Proyecto Integrador 6 Semestre\\FindergersOfficial\\Findergers1.0\\Desapp.csproj",
+      "projectPath": "C:\\Users\\marti\\OneDrive\\Escritorio\\Proyecto\\FindergersOfficial\\Findergers1.0\\Desapp.csproj",
       "packagesPath": "C:\\Users\\marti\\.nuget\\packages\\",
-      "outputPath": "D:\\Universidad-Sebastian\\6. Sexto Semestre\\Proyecto integrador\\Proyecto Integrador 6 Semestre\\FindergersOfficial\\Findergers1.0\\obj\\",
+      "outputPath": "C:\\Users\\marti\\OneDrive\\Escritorio\\Proyecto\\FindergersOfficial\\Findergers1.0\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

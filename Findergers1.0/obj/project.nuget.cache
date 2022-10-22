@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zyj/k2UWaL59UqDOUTBARR/6ugOfanPLbo4uTAsXw3CO+LyT1PKXmwKtgJP+fpDvUjvpig5fyVNax1K/F/B/CQ==",
+  "dgSpecHash": "7Xdt/pTQjclDVx8LJZIeh8TflQTvgkiOsCu27a5G5L44rM2kyAPwC+5q4g5xzdCxTYiwsLciK6Ek5w9ETDzw9A==",
   "success": true,
-  "projectFilePath": "D:\\Universidad-Sebastian\\6. Sexto Semestre\\Proyecto integrador\\Proyecto Integrador 6 Semestre\\FindergersOfficial\\Findergers1.0\\Desapp.csproj",
+  "projectFilePath": "C:\\Users\\marti\\OneDrive\\Escritorio\\Proyecto\\FindergersOfficial\\Findergers1.0\\Desapp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marti\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\marti\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

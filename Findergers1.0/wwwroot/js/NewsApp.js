@@ -15,28 +15,27 @@
             let listadoNoticiasHTML = ``;
             noticias?.map(noticia => {
                 const { image, url, title, description, source } = noticia;
-                let imagen = (image) ? `
-                 <div class="card-image">
-                 <img src="${image}" alt=${title}>
-                 <span class="card-title">${source}</span>
-                 
-                 </div>`: null;
+                let imagenhd = (image) ? `<div class="card-image">
+                                            <img src="${image}" alt=${title}>
+                                            <span class="card-title">${source}</span>
+                                            </div>`: "";
 
-                listadoNoticiasHTML +=
-                    `<div class="contenedor">
-                        <div class="contenedor-noticia">
-                        <div class="card">
-                            <img src="${image}">
-                                <div class="textos">
-                                <h2>${title}</h2>
-                                <p>${description}</p>
-                                <a href="${url}" class="btn">Ver Noticia Completa</a>
-                                
-                                </div>
-                            </div>
-                        </div>
-                        </div>
-                        `;
+                listadoNoticiasHTML += `
+
+        <div class="col s12 m6 14">
+            <div class="card">
+                ${imagenhd}
+                <div class="card-content">
+                    <h3>${title}</h3>
+                    <p>${description}</p>
+                    <br>
+                    <div class="contenedor-botones">
+                    <a href="${url}">
+                    <button class="boton cuatro"><span>Ver Noticia Completa</span></button></a>
+                    </div>
+                </div>
+            </div>
+        </div> `;
             });
             let divListadoNoticias = document.querySelector("#divListadoNoticias");
             divListadoNoticias.innerHTML = `<div style="text-align:center">
