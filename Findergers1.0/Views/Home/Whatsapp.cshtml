@@ -7,8 +7,11 @@
     <title>Contacto</title>
 
     <style>
+        .bod{
+            background-color:#128c7e;
+        }
         .l{
-             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+             font-family: Verdana;
         }
     .c{
        
@@ -30,7 +33,7 @@
        
         width: 100px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        background-color: dodgerblue;
+        background-color: #1DB954;
         border-radius:10px;
         padding: 2px 15px;
         color:white;
@@ -39,8 +42,8 @@
 
     .co:hover {
         background-color:white;
-        color:dodgerblue;
-        border: 2px solid dodgerblue;
+        color:#25D366;
+        border: 2px solid #25D366;
     }
     </style>
     <script>
@@ -75,16 +78,22 @@ function onlyNumbers(e) {
 </script>
 
 </head>
-<body>
+<body class="bod">
 
-<form name="input">
+    
 
-      <label class="l">Please enter the number: </label>
-         <input type="text" name="cellphone" id="cellphone" onkeypress="return onlyNumbers(event)">
+    <center><h1 style="color:white">Sending Message via Whatsapp</h1></center>
+    <p></p>
+    <center><img src="https://www.unipile.com/wp-content/uploads/2022/02/icone-logo-whatsapp-vert.png" alt="" style="width:200px; height:200px;"/></center>
+    <p></p>
+<center><form name="input">
+
+      <label class="l" style="color:white">Please enter the number: </label>
+         <input type="text" name="cellphone" id="cellphone" onkeypress="return onlyNumbers(event)" style="border-radius:10px;" placeholder="Ex: 3138329143">
          <button class="co" type="button" onclick="getNumber()">Confirm</button>
          <input class="c" type="reset" value="Clear">
 
-</form>
+</form></center>
 
     
 </body>

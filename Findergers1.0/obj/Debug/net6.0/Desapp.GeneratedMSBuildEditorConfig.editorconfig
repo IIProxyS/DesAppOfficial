@@ -8,45 +8,53 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Findergers1._0
 build_property.RootNamespace = Findergers1._0
-build_property.ProjectDir = D:\Universidad-Sebastian\6. Sexto Semestre\Proyecto integrador\Proyecto Integrador 6 Semestre\FindergersOfficial\Findergers1.0\
+build_property.ProjectDir = C:\Users\kee12\OneDrive\Escritorio\DesApp (Noticias-Chats)\Restauracion\DesAppOfficial\Findergers1.0\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Universidad-Sebastian\6. Sexto Semestre\Proyecto integrador\Proyecto Integrador 6 Semestre\FindergersOfficial\Findergers1.0
+build_property.MSBuildProjectDirectory = C:\Users\kee12\OneDrive\Escritorio\DesApp (Noticias-Chats)\Restauracion\DesAppOfficial\Findergers1.0
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Universidad-Sebastian/6. Sexto Semestre/Proyecto integrador/Proyecto Integrador 6 Semestre/FindergersOfficial/Findergers1.0/Views/Desapp/Edit.cshtml]
+[C:/Users/kee12/OneDrive/Escritorio/DesApp (Noticias-Chats)/Restauracion/DesAppOfficial/Findergers1.0/Views/Desapp/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzYXBwXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Universidad-Sebastian/6. Sexto Semestre/Proyecto integrador/Proyecto Integrador 6 Semestre/FindergersOfficial/Findergers1.0/Views/Desapp/Index.cshtml]
+[C:/Users/kee12/OneDrive/Escritorio/DesApp (Noticias-Chats)/Restauracion/DesAppOfficial/Findergers1.0/Views/Desapp/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzYXBwXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Universidad-Sebastian/6. Sexto Semestre/Proyecto integrador/Proyecto Integrador 6 Semestre/FindergersOfficial/Findergers1.0/Views/Desapp/NewMissing.cshtml]
+[C:/Users/kee12/OneDrive/Escritorio/DesApp (Noticias-Chats)/Restauracion/DesAppOfficial/Findergers1.0/Views/Desapp/NewMissing.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzYXBwXE5ld01pc3NpbmcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Universidad-Sebastian/6. Sexto Semestre/Proyecto integrador/Proyecto Integrador 6 Semestre/FindergersOfficial/Findergers1.0/Views/Home/Index.cshtml]
+[C:/Users/kee12/OneDrive/Escritorio/DesApp (Noticias-Chats)/Restauracion/DesAppOfficial/Findergers1.0/Views/Home/Chats.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaGF0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kee12/OneDrive/Escritorio/DesApp (Noticias-Chats)/Restauracion/DesAppOfficial/Findergers1.0/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Universidad-Sebastian/6. Sexto Semestre/Proyecto integrador/Proyecto Integrador 6 Semestre/FindergersOfficial/Findergers1.0/Views/Shared/Error.cshtml]
+[C:/Users/kee12/OneDrive/Escritorio/DesApp (Noticias-Chats)/Restauracion/DesAppOfficial/Findergers1.0/Views/Home/Whatsapp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxXaGF0c2FwcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kee12/OneDrive/Escritorio/DesApp (Noticias-Chats)/Restauracion/DesAppOfficial/Findergers1.0/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Universidad-Sebastian/6. Sexto Semestre/Proyecto integrador/Proyecto Integrador 6 Semestre/FindergersOfficial/Findergers1.0/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/kee12/OneDrive/Escritorio/DesApp (Noticias-Chats)/Restauracion/DesAppOfficial/Findergers1.0/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Universidad-Sebastian/6. Sexto Semestre/Proyecto integrador/Proyecto Integrador 6 Semestre/FindergersOfficial/Findergers1.0/Views/_ViewImports.cshtml]
+[C:/Users/kee12/OneDrive/Escritorio/DesApp (Noticias-Chats)/Restauracion/DesAppOfficial/Findergers1.0/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Universidad-Sebastian/6. Sexto Semestre/Proyecto integrador/Proyecto Integrador 6 Semestre/FindergersOfficial/Findergers1.0/Views/_ViewStart.cshtml]
+[C:/Users/kee12/OneDrive/Escritorio/DesApp (Noticias-Chats)/Restauracion/DesAppOfficial/Findergers1.0/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Universidad-Sebastian/6. Sexto Semestre/Proyecto integrador/Proyecto Integrador 6 Semestre/FindergersOfficial/Findergers1.0/Views/Shared/_Layout.cshtml]
+[C:/Users/kee12/OneDrive/Escritorio/DesApp (Noticias-Chats)/Restauracion/DesAppOfficial/Findergers1.0/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-l19xftsl98
