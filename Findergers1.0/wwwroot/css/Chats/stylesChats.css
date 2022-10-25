@@ -1,0 +1,74 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Special+Elite&display=swap');
+
+body {
+    background-color: #1F1C2C;
+    font-family: 'Pangolin', cursive;
+}
+
+.col-2{
+    color: white;
+}
+
+.col-3{
+    color: white;
+}
+
+span{
+    color: white;
+}
+
+.col-6{
+    position: absolute;
+    left: 310px;
+}
+.b1 {
+    width: 150px;
+    background-color: #1DA1F2;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+    .b1:hover {
+        background-color: white;
+        color: #1DA1F2;
+        border: 2px solid #1DA1F2;
+    }
+
+.b2 {
+    width: 150px;
+    background-color: #F75E25;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+    .b2:hover {
+        background-color: white;
+        color: #F75E25;
+        border: 2px solid #F75E25;
+    }
+
+.w {
+    width: 150px;
+    background-color: #25D366;
+    border-radius: 10px;
+    padding: 5px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+    .w:hover {
+        background-color: white;
+        color: #25D366;
+        border: 2px solid #25D366;
+    }
+
+.botones{
+    position: absolute;
+    left: -370px;
+} 

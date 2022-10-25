@@ -11,6 +11,14 @@ namespace Findergers1._0.Controllers
         {
             return View();
         }
+        public IActionResult Chats()
+        {
+            return View();
+        }
+        public IActionResult Whatsapp()
+        {
+            return View();
+        }
 
         public IActionResult Privacy()
         {

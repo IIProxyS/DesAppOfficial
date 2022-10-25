@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Universidad-Sebastian\\6. Sexto Semestre\\Proyecto integrador\\Proyecto Integrador 6 Semestre\\FindergersOfficial\\TestProject4\\TestProject4.csproj": {}
+    "C:\\Users\\pater\\OneDrive\\Documentos\\DesApp\\DesAppOfficial\\TestProject4\\TestProject4.csproj": {}
   },
   "projects": {
-    "D:\\Universidad-Sebastian\\6. Sexto Semestre\\Proyecto integrador\\Proyecto Integrador 6 Semestre\\FindergersOfficial\\Findergers1.0\\Desapp.csproj": {
+    "C:\\Users\\pater\\OneDrive\\Documentos\\DesApp\\DesAppOfficial\\Findergers1.0\\Desapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Universidad-Sebastian\\6. Sexto Semestre\\Proyecto integrador\\Proyecto Integrador 6 Semestre\\FindergersOfficial\\Findergers1.0\\Desapp.csproj",
+        "projectUniqueName": "C:\\Users\\pater\\OneDrive\\Documentos\\DesApp\\DesAppOfficial\\Findergers1.0\\Desapp.csproj",
         "projectName": "Desapp",
-        "projectPath": "D:\\Universidad-Sebastian\\6. Sexto Semestre\\Proyecto integrador\\Proyecto Integrador 6 Semestre\\FindergersOfficial\\Findergers1.0\\Desapp.csproj",
-        "packagesPath": "C:\\Users\\marti\\.nuget\\packages\\",
-        "outputPath": "D:\\Universidad-Sebastian\\6. Sexto Semestre\\Proyecto integrador\\Proyecto Integrador 6 Semestre\\FindergersOfficial\\Findergers1.0\\obj\\",
+        "projectPath": "C:\\Users\\pater\\OneDrive\\Documentos\\DesApp\\DesAppOfficial\\Findergers1.0\\Desapp.csproj",
+        "packagesPath": "C:\\Users\\pater\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pater\\OneDrive\\Documentos\\DesApp\\DesAppOfficial\\Findergers1.0\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\marti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pater\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -48,6 +48,10 @@
               "target": "Package",
               "version": "[2.2.0, )"
             },
+            "Microsoft.AspNetCore.SignalR": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.9, )"
@@ -73,7 +77,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -85,24 +90,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.305\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Universidad-Sebastian\\6. Sexto Semestre\\Proyecto integrador\\Proyecto Integrador 6 Semestre\\FindergersOfficial\\TestProject4\\TestProject4.csproj": {
+    "C:\\Users\\pater\\OneDrive\\Documentos\\DesApp\\DesAppOfficial\\TestProject4\\TestProject4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Universidad-Sebastian\\6. Sexto Semestre\\Proyecto integrador\\Proyecto Integrador 6 Semestre\\FindergersOfficial\\TestProject4\\TestProject4.csproj",
+        "projectUniqueName": "C:\\Users\\pater\\OneDrive\\Documentos\\DesApp\\DesAppOfficial\\TestProject4\\TestProject4.csproj",
         "projectName": "TestProject4",
-        "projectPath": "D:\\Universidad-Sebastian\\6. Sexto Semestre\\Proyecto integrador\\Proyecto Integrador 6 Semestre\\FindergersOfficial\\TestProject4\\TestProject4.csproj",
-        "packagesPath": "C:\\Users\\marti\\.nuget\\packages\\",
-        "outputPath": "D:\\Universidad-Sebastian\\6. Sexto Semestre\\Proyecto integrador\\Proyecto Integrador 6 Semestre\\FindergersOfficial\\TestProject4\\obj\\",
+        "projectPath": "C:\\Users\\pater\\OneDrive\\Documentos\\DesApp\\DesAppOfficial\\TestProject4\\TestProject4.csproj",
+        "packagesPath": "C:\\Users\\pater\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pater\\OneDrive\\Documentos\\DesApp\\DesAppOfficial\\TestProject4\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\marti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pater\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -117,8 +122,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Universidad-Sebastian\\6. Sexto Semestre\\Proyecto integrador\\Proyecto Integrador 6 Semestre\\FindergersOfficial\\Findergers1.0\\Desapp.csproj": {
-                "projectPath": "D:\\Universidad-Sebastian\\6. Sexto Semestre\\Proyecto integrador\\Proyecto Integrador 6 Semestre\\FindergersOfficial\\Findergers1.0\\Desapp.csproj"
+              "C:\\Users\\pater\\OneDrive\\Documentos\\DesApp\\DesAppOfficial\\Findergers1.0\\Desapp.csproj": {
+                "projectPath": "C:\\Users\\pater\\OneDrive\\Documentos\\DesApp\\DesAppOfficial\\Findergers1.0\\Desapp.csproj"
               }
             }
           }
@@ -133,6 +138,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.SignalR": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.1.0, )"
@@ -160,7 +169,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -169,7 +179,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.305\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
