@@ -10,7 +10,7 @@ namespace Findergers1._0.Controllers
         public IActionResult Index()
         {
             List<ListMissing> lst;
-            using (DesappContext db = new DesappContext())
+            using (DesappDBContext db = new DesappDBContext())
             {
                 lst = (from d in db.Missings
                        select new ListMissing
@@ -20,6 +20,7 @@ namespace Findergers1._0.Controllers
                            Age_Missing = d.AgeMissing,
                            Description_Missing = d.DescriptionMissing,
                            Date_Missing = d.DateMissing,
+                           Lastlocation_Missing = d.LastlocationMissing,
 
                        }).ToList();
 
@@ -36,7 +37,7 @@ namespace Findergers1._0.Controllers
         {
             if (ModelState.IsValid)
             {
-                using (DesappContext db = new DesappContext())
+                using (DesappDBContext db = new DesappDBContext())
                 {
                     var oDesa = new Missing();
 
@@ -45,6 +46,7 @@ namespace Findergers1._0.Controllers
                     oDesa.AgeMissing = model.AgeMissing;
                     oDesa.DescriptionMissing = model.DescriptionMissing;
                     oDesa.DateMissing = model.DateMissing;
+                    oDesa.LastlocationMissing = model.LastlocationMissing;
 
                     db.Missings.Add(oDesa);
                     db.SaveChanges();
@@ -59,7 +61,7 @@ namespace Findergers1._0.Controllers
         public ActionResult Edit(int ID)
         {
             Missing model = new Missing();
-            using (DesappContext db = new DesappContext())
+            using (DesappDBContext db = new DesappDBContext())
             {
                 var oMis = db.Missings.Find(ID);
                 model.IdMissing = oMis.IdMissing;
@@ -67,7 +69,7 @@ namespace Findergers1._0.Controllers
                 model.AgeMissing = oMis.AgeMissing;
                 model.DescriptionMissing = oMis.DescriptionMissing;
                 model.DateMissing = oMis.DateMissing;
-
+                model.LastlocationMissing = oMis.LastlocationMissing;
 
             }
             return View(model);
@@ -81,7 +83,7 @@ namespace Findergers1._0.Controllers
 
                 if (ModelState.IsValid)
                 {
-                    using (DesappContext db = new DesappContext())
+                    using (DesappDBContext db = new DesappDBContext())
                     {
                         var oDesa = db.Missings.Find(model.IdMissing);
 
@@ -90,7 +92,7 @@ namespace Findergers1._0.Controllers
                         oDesa.AgeMissing = model.AgeMissing;
                         oDesa.DescriptionMissing = model.DescriptionMissing;
                         oDesa.DateMissing = model.DateMissing;
-
+                        oDesa.LastlocationMissing = model.LastlocationMissing;
                         db.Entry(oDesa).State = EntityState.Modified;
                         db.SaveChanges();
 
@@ -109,7 +111,7 @@ namespace Findergers1._0.Controllers
         [HttpGet]
         public ActionResult Delete(int Id)
         {
-            using (DesappContext db = new DesappContext())
+            using (DesappDBContext db = new DesappDBContext())
             {
                 var oDesa = db.Missings.Find(Id);
                 db.Missings.Remove(oDesa);

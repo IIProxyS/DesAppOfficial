@@ -7,6 +7,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,18 +19,28 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="~/css/IndexS.css" rel="stylesheet" />
     <link rel="stylesheet" href="~/css/StyleNewst.css" />
-    <script src="~/js/apnews.js"></script>
-
+    <script src="~/js/news.js"></script>
+    <link href="/img/logo.png" rel="icon" type="image/x-icon" />
+    <link rel="icon" src="@Url.Content("/img/logo.png")" />
     <script src="~/lib/microsoft/signalr/dist/browser/signalr.js"></script>
     <script src="~/js/Chat.js"></script>
 
     <title>Desapp</title>
 </head>
 <body onload="obtenerDatos()">
+    <div style="text-align: right;">
+        <div id="google_translate_element"></div>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    </div>
     <header>
         <div class="cabeza">
-            <a href="~/Register/Register">Register</a>
-            <a href="~/Login/Login">Login</a>
+            <a href="~/HomePage/HomePage">Logout</a>
+            <a href="~/Desapp/Index">Register Missing</a>
             <a href="~/Home/Chats">Chat</a>
         </div>
         <section class="textos-header">

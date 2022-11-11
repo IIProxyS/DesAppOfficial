@@ -1,6 +1,6 @@
 ﻿@model Findergers1._0.Models.Missing
 @{
-    ViewBag.Title = "Nuevos Registros";
+    ViewBag.Title = "New Registration";
 }
 
 <h2>@ViewBag.Title</h2>
@@ -9,6 +9,7 @@
 
 @using (Html.BeginForm("NewMissing", "Desapp", FormMethod.Post))
 {
+   
     <div class="row">
         <div class="col-md-12">
             <div>
@@ -30,7 +31,11 @@
                 <input asp-for="DateMissing" class="form-control" />
                 <span asp-validation-for="DateMissing" class="text-danger"></span>
             </div>
-           
+            <div>
+                @Html.LabelFor(d => d.LastlocationMissing)
+                @Html.TextBoxFor(d => d.LastlocationMissing, "", new { @class = "form-control" })
+
+            </div>
 
             <div style="text-align:right;">
                 <input value="Save" class="btn btn-primary" type="submit" />

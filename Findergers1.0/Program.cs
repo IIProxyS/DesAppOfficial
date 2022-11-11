@@ -14,7 +14,7 @@ builder.Services.AddCors(options =>
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddSignalR();
-builder.Services.AddDbContext<DesappContext>(options =>
+builder.Services.AddDbContext<DesappDBContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection"));
 });
@@ -38,7 +38,7 @@ app.UseAuthorization();
 app.UseCors("permitir");
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=HomePage}/{action=HomePage}/{id?}");
 
 app.MapHub<ChatHub>("/chatHub");
 app.Run();

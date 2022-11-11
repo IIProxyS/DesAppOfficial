@@ -1,7 +1,7 @@
 ﻿@model List<Findergers1._0.Models.ViewModels.ListMissing>
 
 @{
-    ViewBag.Title = "Desaparecidos";
+    ViewBag.Title = "Missings";
 }
 
 <h2>@ViewBag.Title</h2>
@@ -14,7 +14,8 @@
                 <th>Name</th>
                 <th>Age</th>
                 <th>Description</th>
-                <th>Average</th>
+                <th>Date</th>
+                <th>Last location</th>
                 
                 <th> </th>
             </tr>
@@ -26,6 +27,7 @@
                     <td>@oElemento.Age_Missing</td>
                     <td>@oElemento.Description_Missing</td>
                     <td>@oElemento.Date_Missing</td>
+                    <td>@oElemento.Lastlocation_Missing</td>
                     
                     <td>
                         <a class="btn btn-default" href="~/Desapp/Edit/@oElemento.Id_Missing">Edit</a>

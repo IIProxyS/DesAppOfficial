@@ -7,5 +7,7 @@
         public int? Age_Missing { get; set; }
         public string? Description_Missing { get; set; }
         public DateTime? Date_Missing { get; set; }
+
+        public string? Lastlocation_Missing { get; set; }
     }
 }

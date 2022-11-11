@@ -3,7 +3,7 @@
 *@
 @{
 }
-@model Findergers1._0.Models.LoginAndRegister
+@model Findergers1._0.Models.IniciarSesion
 
 @{
     Layout = null;
@@ -13,10 +13,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>bb</title>
+    <title>Login</title>
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link href="~/css/Login-Register/styleLogin.css" rel="stylesheet" />
+    <link href="~/css/login-register/login.css" rel="stylesheet" />
+    <link href="/img/logo.png" rel="icon" type="image/x-icon" />
+    <link rel="icon" src="@Url.Content("/img/logo.png")" />
 </head>
 <body>
 
@@ -29,7 +31,7 @@
         </div>
         <p class="text">
             Forgotten your password or you login datails?
-            <a href="#">Get help</a> signing in
+            <a href="~/Login/StarRecovery">Get help</a> signing in
             <form action="@Url.Action("Login","Login")" method="post" class="formulario" id="formulario">
 
                 <!-- Grupo: Username -->

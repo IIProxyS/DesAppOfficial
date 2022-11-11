@@ -1,60 +1,37 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
+    
 }
-
+<html lang="en">
+<head>
+    <link href="/img/logo.png" rel="icon" type="image/x-icon" />
+    <link rel="icon" src="@Url.Content("/img/logo.png")" />
+    <title>Desapp</title>
+</head>
 <body>
-    <img style="position:absolute; display:flex; flex-wrap:wrap; left:1000px; width:280px; height:280px; top:100px;" src="https://cdn-icons-png.flaticon.com/512/1624/1624565.png" alt="" />
+    
     <link href="~/css/Chats/stylesChats.css" rel="stylesheet" />
-    <div class="container">
-
-        <div class="row">
-            <div class="col-3">Your connection ID</div>
-            <div class="col-6"><span id="connectionId" /></div>
-        </div><p />
-
-        <div class="row">&nbsp;</div>
-        <div class="row">
-            <div class="col-2">User</div>
-            <div class="col-4"><input style="border-radius:10px;" type="text" id="userInput" placeholder="Ex: Kevin" /></div>
-        </div>
-        <p />
-
-        <div class="row">
-            <div class="col-2">Message</div>
-            <div class="col-4"><input style="border-radius:10px;" type="text" id="messageInput" placeholder="Write here" /></div>
-        </div>
-        <p />
-
-        <div class="row">
-            <div class="col-2">Receiver Id</div>
-            <div class="col-4"><input style="border-radius:10px;" type="text" id="receiverId" placeholder="Enter an user ID" /></div>
-        </div>
-
-        <center>
-            <div class="row">&nbsp;</div>
-            <div class="row">
-                <div class="botones">
-
-                    <input class="b1" type="button" id="sendToUser" value="Send to User" style="border-radius:10px;" />&nbsp;&nbsp;
-                    <input class="b2" type="button" id="sendButton" value="Send to All" style="border-radius:10px" />
-                    <p></p>
-                    <div class="col-2"> OR </div>
-                    <p></p>
-                    <a class="w" href="~/Home/Whatsapp">Send Message via Whatsapp</a>
+    <div class="block">
+        <div class="caja-chat">
+            <div class="chat">
+                <div class="datos-chat">
+                    <h4>Your connection ID</h4>
+                    <p id="connectionId"></p>
+                    <h4>User</h4>
+                    <input type="text" id="userInput" placeholder="Ex: Kevin" />
+                    <h4>Receiver Id</h4>
+                    <input type="text" id="receiverId" placeholder="Enter an user ID" />
 
                 </div>
             </div>
-        </center>
-    </div>
-
-    <div class="row">
-        <div class="col-12">
         </div>
+        <ul id="messagesList"></ul>
+        <textarea id="messageInput" placeholder="Write here"></textarea>
     </div>
-
-    <div class="row">
-        <div class="col-6">
-            <ul id="messagesList"></ul>
-        </div>
+    <div class="botones">
+        <button id="sendToUser" class="btn">Send to User</button>
+        <button id="sendButton" class="btn">Send to All</button>
+        <a id="Whatsapp" class="btn" class="w" href="~/Home/Whatsapp">Send Whatsapp</a>
     </div>
 </body>
+</html>
